@@ -55,6 +55,7 @@
   @media screen and (min-width: 640px) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: initial;
     & > div {
       border-right: 2px solid lightgray;
       &:last-child {
